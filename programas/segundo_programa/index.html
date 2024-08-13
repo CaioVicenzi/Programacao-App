@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Calculador de temperaturas muito brabo</h2>
+
+    <label>
+        temperatura:
+        <input type="number" id="temperatura">
+    </label>
+
+    <label>
+        Unidade de medida
+        <select id="unidadeOriginal">
+            <option>Celsius</option>
+            <option>Fahrenheit</option>
+            <option>Kelvin</option>
+        </select>
+    </label>
+
+    <p><bold>Você quer trocar para qual unidade de medida?</bold></p>
+    <label>
+        Unidade de medida
+        <select id="unidadeConverter">
+            <option>Celsius</option>
+            <option>Fahrenheit</option>
+            <option>Kelvin</option>
+        </select>
+    </label>
+
+    <button onclick="enviar()">Enviar</button>
+
+    <div id="divManeira"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
